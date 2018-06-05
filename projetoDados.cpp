@@ -60,7 +60,7 @@ int main(int argc, const char** argv) {
 
 			//Imprime no cento do dado a resposta
 			Point center_of_rect = (boundsRect.br() + boundsRect.tl()) * 0.5;
-			putText(frame, to_string(keypoints.size()), center_of_rect, FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 125, 255), 4);
+			putText(frame, to_string(keypoints.size()), center_of_rect, FONT_HERSHEY_TRIPLEX, 1, Scalar(0, 125, 255), 4);
 		}
 
 		if (waitKey(delay) >= 0)
